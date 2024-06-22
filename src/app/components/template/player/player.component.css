@@ -1,0 +1,48 @@
+.speech-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.play-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: auto;
+    padding: 20px;
+}
+
+.speech-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 60%;
+}
+
+.example-label-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#select-voice {
+    width: 300px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+    max-height: 150px;
+}
+
+.custom-button {
+    background-color: green;
+}
+
+.custom-button.mat-button-disabled {
+    background-color: #ccc;
+}

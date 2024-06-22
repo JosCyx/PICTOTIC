@@ -1,0 +1,71 @@
+<div class="speech-container">
+  
+
+    <div class="speech-controls">
+  
+      <mat-form-field class="example-full-width">
+        <textarea matInput [value]="textToSpeech" readonly></textarea>
+      </mat-form-field>
+  
+      <!-- VOICE CONFIGURATION -->
+      <!-- <mat-form-field id="select-voice">
+        <mat-label>Voice</mat-label>
+        <mat-select [(ngModel)]="voice.index">
+          @for (voice of voices; track $index) {
+            <mat-option [value]="$index">{{ voice.name }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field> 
+  
+      <div>
+        <div class="example-label-container">
+          <label class="example-name-label">Tono</label>
+          <label class="example-value-label">{{voice.pitch}}</label>
+        </div>
+        <mat-slider min="0" max="2" step="0.25">
+          <input matSliderThumb  [(ngModel)]="voice.pitch">
+        </mat-slider>
+      </div>
+  
+      <div>
+        <div class="example-label-container">
+          <label class="example-name-label">Velocidad</label>
+          <label class="example-value-label">{{voice.rate}}</label>
+        </div>
+        <mat-slider min="0" max="1" step="0.05">
+          <input matSliderThumb  [(ngModel)]="voice.rate">
+        </mat-slider>
+      </div>
+  
+      <div>
+        <div class="example-label-container">
+          <label class="example-name-label">Volumen</label>
+          <label class="example-value-label">{{voice.volume}}</label>
+        </div>
+        <mat-slider min="0" max="1" step="0.1">
+          <input matSliderThumb  [(ngModel)]="voice.volume">
+        </mat-slider>
+      </div> -->
+  
+    </div>
+  
+    <div class="play-controls">
+      <button mat-fab id="speech-button-start" class="custom-button"  aria-label="Boton para empezar a escuchar" (click)="startSpeaking()"
+      [disabled]="isReading">
+        <mat-icon>hearing</mat-icon>
+      </button>
+      <button mat-fab color="primary" aria-label="Boton para pausar la lectura" (click)="handlePlaySpeaking(1)"
+      [disabled]="!isReading || isStoped">
+        <mat-icon>pause_outlined</mat-icon>
+      </button>
+      <button mat-fab color="primary" aria-label="Boton para reanudar la lectura" (click)="handlePlaySpeaking(2)"
+      [disabled]="!isReading || !isStoped">
+        <mat-icon>play_arrow</mat-icon>
+      </button>
+      <button mat-fab color="warn" aria-label="Boton para dejar de escuchar la lectura" (click)="handlePlaySpeaking(3)"
+      [disabled]="!isReading">
+        <mat-icon>stop</mat-icon>
+      </button>
+    </div>
+  </div>
+  
