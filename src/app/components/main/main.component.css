@@ -9,9 +9,16 @@
 }
 
 .content-container{
-    width: 85%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+app-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
 }
 
 app-player{

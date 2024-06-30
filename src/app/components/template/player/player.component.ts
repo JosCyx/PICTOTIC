@@ -28,13 +28,12 @@ import { TextToSpeechService } from '../../../services/text-to-speech.service';
   styleUrl: './player.component.css'
 })
 export class PlayerComponent {
-  textToSpeech: string = '';
 
   //almacena los datos de la voz seleccionada
   voice: any = {
     index: 4,
-    pitch: 1,
-    rate: 0.65,
+    pitch: 0.75,
+    rate: 0.6,
     volume: 1
   }
 
@@ -49,7 +48,7 @@ export class PlayerComponent {
 
   constructor(
     private ngZone: NgZone, 
-    private ttsService: TextToSpeechService
+    public ttsService: TextToSpeechService
   ) { }
 
   ngOnInit() {
@@ -60,17 +59,11 @@ export class PlayerComponent {
 
   startSpeaking() {
     try {
-      //si esta vacio el campo de texto, se leera la lista de palabras
-      if(this.textToSpeech == ''){
-
-        this.ttsService.textToSpeech.forEach((element) => {
-          this.textToSpeech += element + ' '
-        })
-      }      
+      //si esta vacio el campo de texto, se leera la lista de palabras  
 
       console.log('let´s to speech!!!')
       const index = this.voice.index;
-      const message = new SpeechSynthesisUtterance(this.textToSpeech);
+      const message = new SpeechSynthesisUtterance(this.ttsService.textToSpeech);
       message.voice = this.voices[index];
       message.pitch = this.voice.pitch;
       message.rate = this.voice.rate;

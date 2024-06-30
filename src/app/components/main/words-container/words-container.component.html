@@ -1,1 +1,33 @@
-<p>words-container works!</p>
+<div class="main-container">
+
+    @if (!isCategorySelected) {
+
+    <div class="categories-container">
+        @for (item of allCategories; track $index) {
+        <mat-card class="category-card-a" appearance="outlined" (click)="selectCategory(item)" (click)="speechOnce(item.name)">
+            <img mat-card-image [src]="item.image" alt="Photo of {{item.name}}">
+            <mat-card-title>{{item.name}}</mat-card-title>
+        </mat-card>
+        }
+    </div>
+    }
+
+    @else if (isCategorySelected) {
+    <div>
+        <mat-card class="category-card-b" appearance="outlined">
+            <mat-card-title>{{categorySelected.name}}</mat-card-title>
+        </mat-card>
+
+        <div class="words-container">
+            @for (item of wordsByCategory; track $index) {
+            <mat-card class="word-card" appearance="outlined" (click)="selectWord(item)" (click)="speechOnce(item.word)">
+                @if(item.image){
+                    <img mat-card-image [src]="item.image" alt="Photo of {{item.name}}">
+                }
+                <mat-card-title>{{item.word}}</mat-card-title>
+            </mat-card>
+            }
+        </div>
+    </div>
+    }
+</div>

@@ -4,7 +4,7 @@
     <div class="speech-controls">
   
       <mat-form-field class="example-full-width">
-        <textarea matInput [value]="textToSpeech" readonly></textarea>
+        <textarea matInput [(ngModel)]="ttsService.textToSpeech"></textarea>
       </mat-form-field>
   
       <!-- VOICE CONFIGURATION -->
@@ -65,6 +65,11 @@
       <button mat-fab color="warn" aria-label="Boton para dejar de escuchar la lectura" (click)="handlePlaySpeaking(3)"
       [disabled]="!isReading">
         <mat-icon>stop</mat-icon>
+      </button>
+      <button mat-fab color="warn" aria-label="Boton para limpiar el textarea" 
+      [disabled]="isReading" 
+      (click)="ttsService.textToSpeech = ''">
+        <mat-icon>close</mat-icon>
       </button>
     </div>
   </div>

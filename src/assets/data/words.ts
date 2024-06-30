@@ -154,7 +154,7 @@ export const WORDS = [
     { id: 129, word: 'RODILLA', categoryId: 12, image: 'assets/img/partescuerpo/rodilla.png' },
     { id: 130, word: 'HOMBROS', categoryId: 12, image: 'assets/img/partescuerpo/hombro.png' },
     { id: 131, word: 'BARRIGA', categoryId: 12, image: 'assets/img/partescuerpo/barriga.png' },
-    { id: 132, word: 'BRAZOS', categoryId: 12, image: 'assets/img/partescuerpo/brazos.png' },
+    { id: 132, word: 'BRAZOS', categoryId: 12, image: 'assets/img/partescuerpo/brazo.png' },
     { id: 133, word: 'PIERNAS', categoryId: 12, image: 'assets/img/partescuerpo/pierna.png' },
     
     // Aseo personal
@@ -167,7 +167,6 @@ export const WORDS = [
     //{ id: 140, word: 'PERFUME', categoryId: 13, image: 'assets/img/aseopersonal/tareas.png' },
     
     // Actividades diarias - Mañana
-    //{ id: 141, word: 'RUTINA DE MAÑANA', categoryId: 14, image: 'assets/img/dailyroutine/rutinamaniana/tareas.png' },
     //{ id: 142, word: 'DESPERTARSE', categoryId: 14, image: 'assets/img/dailyroutine/rutinamaniana/tareas.png' },
     { id: 143, word: 'LAVARSE LA CARA', categoryId: 14, image: 'assets/img/dailyroutine/rutinamaniana/lavarsecara.png' },
     { id: 144, word: 'CEPILLARSE LOS DIENTES', categoryId: 14, image: 'assets/img/dailyroutine/rutinamaniana/cepillarsedientes.png' },
@@ -176,7 +175,6 @@ export const WORDS = [
     //{ id: 147, word: 'IR A LA ESCUELA', categoryId: 14, image: 'assets/img/dailyroutine/rutinamaniana/tareas.png' },
     
     // Actividades diarias - Tarde
-    //{ id: 148, word: 'RUTINA DE TARDE', categoryId: 15 },
     //{ id: 149, word: 'REGRESAR A CASA', categoryId: 15, image: 'assets/img/dailyroutine/rutinamaniana/tareas.png' },
     { id: 150, word: 'BAÑARSE', categoryId: 15, image: 'assets/img/dailyroutine/rutinatarde/banarse.png' },
     { id: 151, word: 'ALMORZAR', categoryId: 15, image: 'assets/img/dailyroutine/rutinatarde/almorzar.png' },
@@ -184,7 +182,6 @@ export const WORDS = [
     { id: 153, word: 'JUGAR', categoryId: 15, image: 'assets/img/dailyroutine/rutinatarde/jugar.png' },
     
     // Actividades diarias - Noche
-    //{ id: 154, word: 'RUTINA DE NOCHE', categoryId: 16 },
     { id: 155, word: 'LAVARSE LOS DIENTES', categoryId: 16, image: 'assets/img/dailyroutine/rutinanoche/lavarsedientes.png' },
     { id: 156, word: 'LEER UN CUENTO', categoryId: 16, image: 'assets/img/dailyroutine/rutinanoche/leercuento.png' },
     //{ id: 157, word: 'PONERSE LA PIJAMA', categoryId: 16, image: 'assets/img/dailyroutine/rutinanoche/tareas.png' },
@@ -217,35 +214,35 @@ export const WORDS = [
     //{ id: 179, word: 'FUEGO', categoryId: 18, image: 'assets/img/tiempoespacio/tareas.png' },
     
     // Conectores
-    { id: 180, word: 'UN', categoryId: 19, image: 'assets/img/Conectores/un.png' },
-    { id: 181, word: 'UNOS', categoryId: 19, image: 'assets/img/Conectores/unas.png' },
-    { id: 182, word: 'EL', categoryId: 19, image: 'assets/img/Conectores/el.png' },
-    { id: 183, word: 'LA', categoryId: 19, image: 'assets/img/Conectores/la.png' },
-    { id: 184, word: 'CON', categoryId: 19, image: 'assets/img/Conectores/wcon.png' },
-    { id: 193, word: 'UNA', categoryId: 19, image: 'assets/img/Conectores/una.png' },
-    //{ id: 194, word: 'ESE', categoryId: 19, image: 'assets/img/Conectores/tareas.png' },
-    //{ id: 195, word: 'ESA', categoryId: 19, image: 'assets/img/Conectores/tareas.png' },
-    { id: 196, word: 'LOS', categoryId: 19, image: 'assets/img/Conectores/los.png' },
-    { id: 197, word: 'LAS', categoryId: 19, image: 'assets/img/Conectores/las.png' },
-    //{ id: 198, word: 'MI', categoryId: 19, image: 'assets/img/Conectores/tareas.png' },
-    //{ id: 199, word: 'MIS', categoryId: 19, image: 'assets/img/Conectores/tareas.png' },
-    //{ id: 200, word: 'ESTA', categoryId: 19, image: 'assets/img/Conectores/tareas.png' },
-    //{ id: 201, word: 'ESTE', categoryId: 19, image: 'assets/img/Conectores/tareas.png' },
-    //{ id: 202, word: 'ESOS', categoryId: 19, image: 'assets/img/Conectores/tareas.png' },
-    { id: 203, word: 'UNAS', categoryId: 19, image: 'assets/img/Conectores/unas.png' },
-    //{ id: 204, word: 'ELLOS', categoryId: 19, image: 'assets/img/Conectores/tareas.png' },
-    //{ id: 205, word: 'ELLAS', categoryId: 19, image: 'assets/img/Conectores/tareas.png' },
+    { id: 180, word: 'UN', categoryId: 19 },
+    { id: 181, word: 'UNOS', categoryId: 19 },
+    { id: 182, word: 'EL', categoryId: 19 },
+    { id: 183, word: 'LA', categoryId: 19 },
+    { id: 184, word: 'CON', categoryId: 19},
+    { id: 193, word: 'UNA', categoryId: 19 },
+    //{ id: 194, word: 'ESE', categoryId: 19 },
+    //{ id: 195, word: 'ESA', categoryId: 19 },
+    { id: 196, word: 'LOS', categoryId: 19},
+    { id: 197, word: 'LAS', categoryId: 19 },
+    //{ id: 198, word: 'MI', categoryId: 19},
+    //{ id: 199, word: 'MIS', categoryId: 19 },
+    //{ id: 200, word: 'ESTA', categoryId: 19 },
+    //{ id: 201, word: 'ESTE', categoryId: 19 },
+    //{ id: 202, word: 'ESOS', categoryId: 19},
+    { id: 203, word: 'UNAS', categoryId: 19 },
+    //{ id: 204, word: 'ELLOS', categoryId: 19 },
+    //{ id: 205, word: 'ELLAS', categoryId: 19},
     
     // Preguntas si y no
-    { id: 185, word: 'NO', categoryId: 20, image: 'assets/img/ynpreguntas/si.png' },
-    { id: 186, word: 'SI', categoryId: 20, image: 'assets/img/ynpreguntas/no.png' },
+    { id: 185, word: 'NO', categoryId: 20 },
+    { id: 186, word: 'SI', categoryId: 20 },
     
     // Preguntas
-    { id: 187, word: 'DÓNDE', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
+    /*{ id: 187, word: 'DÓNDE', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
     { id: 188, word: 'QUÉ', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
     { id: 189, word: 'CUÁNDO', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
     { id: 190, word: 'CÓMO', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
-    { id: 191, word: 'QUIÉN', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
+    { id: 191, word: 'QUIÉN', categoryId: 21, image: 'assets/img/Preguntas/si.png' },*/
     { id: 206, word: 'CÓMO ESTÁS', categoryId: 21, image: 'assets/img/Preguntas/comoestas.png' },
     { id: 207, word: 'QUÉ HACES', categoryId: 21, image: 'assets/img/Preguntas/quehaces.png' },
   ];
