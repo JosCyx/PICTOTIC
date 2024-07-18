@@ -383,7 +383,7 @@ export const WORDS = [
     { id: 207, word: 'QUÉ HACES', categoryId: 21, image: 'assets/img/Preguntas/quehaces.png' },
 
     // Numeros
-    { id: 208, word: 'CERO', categoryId: 22, image: 'assets/img/Numeros/0.png' },
+    { id: 208, word: '0', categoryId: 22, image: 'assets/img/Numeros/0.png' },
     { id: 209, word: 'UNO', categoryId: 22, image: 'assets/img/Numeros/1.png' },
     { id: 210, word: 'DOS', categoryId: 22, image: 'assets/img/Numeros/2.png' },
     { id: 211, word: 'TRES', categoryId: 22, image: 'assets/img/Numeros/3.png' },
