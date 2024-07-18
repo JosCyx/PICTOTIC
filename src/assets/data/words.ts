@@ -1,18 +1,18 @@
 export const WORDS = [
     // Personas
-    { id: 1, word: 'YO', categoryId: 1, image: 'assets/img/Personas/yo.png' },
-    { id: 2, word: 'TU', categoryId: 1, image: 'assets/img/Personas/tu.png' },
-    { id: 3, word: 'EL', categoryId: 1, image: 'assets/img/Personas/el.png' },
-    { id: 3, word: 'ELLA', categoryId: 1, image: 'assets/img/Personas/ella.png' },
-    { id: 4, word: 'NOSOTROS', categoryId: 1, image: 'assets/img/Personas/nosotros.png' },
+    { id: 1, word: 'YO', categoryId: 1, image: 'assets/img/Personas/yo.png', noPersona: 1 },
+    { id: 2, word: 'TU', categoryId: 1, image: 'assets/img/Personas/tu.png', noPersona: 2 },
+    { id: 3, word: 'EL', categoryId: 1, image: 'assets/img/Personas/el.png', noPersona: 3  },
+    { id: 3, word: 'ELLA', categoryId: 1, image: 'assets/img/Personas/ella.png', noPersona: 3  },
+    { id: 4, word: 'NOSOTROS', categoryId: 1, image: 'assets/img/Personas/nosotros.png' , noPersona: 4 },
     //{ id: 5, word: 'ELLOS', categoryId: 1, image: 'assets/img/Personas/tu.png' },
     //{ id: 6, word: 'USTEDES', categoryId: 1, image: 'assets/img/Personas/tu.png' },
-    { id: 7, word: 'MAMÁ', categoryId: 1, image: 'assets/img/Personas/mama.png' },
-    { id: 8, word: 'PAPÁ', categoryId: 1, image: 'assets/img/Personas/papa.png' },
+    { id: 7, word: 'MAMÁ', categoryId: 1, image: 'assets/img/Personas/mama.png', noPersona: 3  },
+    { id: 8, word: 'PAPÁ', categoryId: 1, image: 'assets/img/Personas/papa.png', noPersona: 3  },
     //{ id: 9, word: 'HERMANA', categoryId: 1, image: 'assets/img/Personas/tu.png' },
     //{ id: 10, word: 'HERMANO', categoryId: 1, image: 'assets/img/Personas/tu.png' }, 
-    { id: 11, word: 'ABUELO', categoryId: 1, image: 'assets/img/Personas/abuelo.png' },
-    { id: 12, word: 'ABUELA', categoryId: 1, image: 'assets/img/Personas/abuela.png' },
+    { id: 11, word: 'ABUELO', categoryId: 1, image: 'assets/img/Personas/abuelo.png', noPersona: 3  },
+    { id: 12, word: 'ABUELA', categoryId: 1, image: 'assets/img/Personas/abuela.png', noPersona: 3  },
     
     // Saludos
     { id: 13, word: 'BUENOS DÍAS', categoryId: 2, image: 'assets/img/Saludos/buenosdias.png' },
