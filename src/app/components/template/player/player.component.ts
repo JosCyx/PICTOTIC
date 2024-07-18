@@ -9,6 +9,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatInputModule} from '@angular/material/input';
 import { TextToSpeechService } from '../../../services/text-to-speech.service';
+import { GlobalService } from '../../../services/global.service';
 
 
 @Component({
@@ -48,7 +49,8 @@ export class PlayerComponent {
 
   constructor(
     private ngZone: NgZone, 
-    public ttsService: TextToSpeechService
+    public ttsService: TextToSpeechService,
+    private globalService: GlobalService
   ) { }
 
   ngOnInit() {
@@ -97,5 +99,10 @@ export class PlayerComponent {
       this.isReading = false;
       this.isStoped = false;
     }
+  }
+
+  clearPlayer(){
+    this.ttsService.textToSpeech = '';
+    this.globalService.noPersonaSelected = 0;
   }
 }
