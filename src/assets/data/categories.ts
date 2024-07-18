@@ -21,4 +21,5 @@ export const CATEGORIES = [
     { id: 19, name: 'Conectores', image: 'assets/img/categories/conectores.png' },
     { id: 20, name: 'Preguntas Si y No', image: 'assets/img/categories/sn_preguntas.png' },
     { id: 21, name: 'Preguntas', image: 'assets/img/categories/preguntas.png' },
+    { id: 22, name: 'Numeros', image: 'assets/img/categories/numeros.png' },
 ]
