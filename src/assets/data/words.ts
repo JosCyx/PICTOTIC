@@ -369,8 +369,9 @@ export const WORDS = [
     //{ id: 205, word: 'ELLAS', categoryId: 19},
     
     // Preguntas si y no
-    { id: 185, word: 'NO', categoryId: 20 },
-    { id: 186, word: 'SI', categoryId: 20 },
+    { id: 186, word: 'SI', categoryId: 20, image: 'assets/img/si.png'},
+    { id: 185, word: 'NO', categoryId: 20, image: 'assets/img/no.png'},
+    
     
     // Preguntas
     /*{ id: 187, word: 'DÓNDE', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
@@ -380,5 +381,19 @@ export const WORDS = [
     { id: 191, word: 'QUIÉN', categoryId: 21, image: 'assets/img/Preguntas/si.png' },*/
     { id: 206, word: 'CÓMO ESTÁS', categoryId: 21, image: 'assets/img/Preguntas/comoestas.png' },
     { id: 207, word: 'QUÉ HACES', categoryId: 21, image: 'assets/img/Preguntas/quehaces.png' },
+
+    // Numeros
+    { id: 208, word: 'CERO', categoryId: 22, image: 'assets/img/Numeros/0.png' },
+    { id: 209, word: 'UNO', categoryId: 22, image: 'assets/img/Numeros/1.png' },
+    { id: 210, word: 'DOS', categoryId: 22, image: 'assets/img/Numeros/2.png' },
+    { id: 211, word: 'TRES', categoryId: 22, image: 'assets/img/Numeros/3.png' },
+    { id: 212, word: 'CUATRO', categoryId: 22, image: 'assets/img/Numeros/4.png' },
+    { id: 213, word: 'CINCO', categoryId: 22, image: 'assets/img/Numeros/5.png' },
+    { id: 214, word: 'SEIS', categoryId: 22, image: 'assets/img/Numeros/6.png' },
+    { id: 215, word: 'SIETE', categoryId: 22, image: 'assets/img/Numeros/7.png' },
+    { id: 216, word: 'OCHO', categoryId: 22, image: 'assets/img/Numeros/8.png' },
+    { id: 217, word: 'NUEVE', categoryId: 22, image: 'assets/img/Numeros/9.png' },
+  
+  
   ];
   
