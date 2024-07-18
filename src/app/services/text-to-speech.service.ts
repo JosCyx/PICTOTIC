@@ -8,9 +8,7 @@ import { Subject } from 'rxjs';
 export class TextToSpeechService {
 
   textToSpeech: string = '';
-
-  constructor() { }
-
+  
   //almacena los datos de la voz seleccionada
   voice: any = {
     index: 4,
@@ -18,15 +16,22 @@ export class TextToSpeechService {
     rate: 0.6,
     volume: 1
   }
-
+  
   //almacena la lista de voces predeterminadas
   voices: SpeechSynthesisVoice[] = [];
 
+  constructor() {
+    // Escuchar el evento 'voiceschanged' para actualizar las voces disponibles
+    speechSynthesis.addEventListener('voiceschanged', () => {
+      this.voices = speechSynthesis.getVoices();
+    });
+  }
+  
   startSpeaking(text: string) {
     try {
       //si esta vacio el campo de texto, se leera la lista de palabras  
       console.log('let´s to speech!!!')
-      const index = 4;
+      const index = this.voice.index;
       const message = new SpeechSynthesisUtterance(text);
       message.voice = this.voices[index];
       message.pitch = this.voice.pitch;
