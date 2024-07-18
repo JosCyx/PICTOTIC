@@ -45,11 +45,13 @@ export class WordsContainerComponent {
     if (categoryId === 4) {
       this.wordsByCategory = WORDS.filter(word => word.categoryId === categoryId && word.noPerona === this.globalService.noPersonaSelected);
 
-      //agregar el "dame" y el "dolor", buscar las palabras con id 34 y 35 y agregarlas a la lista
-      const dame = WORDS.find(word => word.id === 34);
-      const dolor = WORDS.find(word => word.id === 35);
-      this.wordsByCategory.push(dame);
-      this.wordsByCategory.push(dolor);
+      if(this.globalService.noPersonaSelected != 0){
+        //agregar el "dame" y el "dolor", buscar las palabras con id 34 y 35 y agregarlas a la lista
+        const dame = WORDS.find(word => word.id === 34);
+        const dolor = WORDS.find(word => word.id === 35);
+        this.wordsByCategory.push(dame);
+        this.wordsByCategory.push(dolor);
+      }
     } else {
       //filtrar las palabras por la categoria
       this.wordsByCategory = WORDS.filter(word => word.categoryId === categoryId);
