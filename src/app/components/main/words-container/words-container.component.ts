@@ -56,7 +56,7 @@ export class WordsContainerComponent {
     }
 
     //agregar la palabra atras
-    const atras = { id: 0, word: 'Atras', categoryId: 0, image: 'assets/img/backArrow.png' };
+    const atras = { id: 0, word: 'Atrás', categoryId: 0, image: 'assets/img/backArrow.png' };
     this.wordsByCategory.push(atras);
 
     //ordenar las palabras segun el id
