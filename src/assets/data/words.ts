@@ -369,8 +369,9 @@ export const WORDS = [
     //{ id: 205, word: 'ELLAS', categoryId: 19},
     
     // Preguntas si y no
-    { id: 185, word: 'NO', categoryId: 20 },
-    { id: 186, word: 'SI', categoryId: 20 },
+    { id: 186, word: 'SI', categoryId: 20, image: 'assets/img/tiempoespacio/si.png'},
+    { id: 185, word: 'NO', categoryId: 20, image: 'assets/img/tiempoespacio/no.png'},
+    
     
     // Preguntas
     /*{ id: 187, word: 'DÓNDE', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
