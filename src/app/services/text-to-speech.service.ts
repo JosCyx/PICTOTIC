@@ -11,8 +11,8 @@ export class TextToSpeechService {
   
   //almacena los datos de la voz seleccionada
   voice: any = {
-    index: 4,
-    pitch: 0.75,
+    index: 1,
+    pitch: 0.85,
     rate: 0.6,
     volume: 1
   }
