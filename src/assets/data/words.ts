@@ -369,7 +369,7 @@ export const WORDS = [
     //{ id: 205, word: 'ELLAS', categoryId: 19},
     
     // Preguntas si y no
-    { id: 185, word: 'SI', categoryId: 20, image: 'assets/img/si.png'},
+    { id: 185, word: 'SÍ', categoryId: 20, image: 'assets/img/si.png'},
     { id: 186, word: 'NO', categoryId: 20, image: 'assets/img/no.png'},
     
     
@@ -379,8 +379,8 @@ export const WORDS = [
     { id: 189, word: 'CUÁNDO', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
     { id: 190, word: 'CÓMO', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
     { id: 191, word: 'QUIÉN', categoryId: 21, image: 'assets/img/Preguntas/si.png' },*/
-    { id: 206, word: 'CÓMO ESTÁS', categoryId: 21, image: 'assets/img/Preguntas/comoestas.png' },
-    { id: 207, word: 'QUÉ HACES', categoryId: 21, image: 'assets/img/Preguntas/quehaces.png' },
+    { id: 206, word: '¿CÓMO ESTÁS?', categoryId: 21, image: 'assets/img/Preguntas/comoestas.png' },
+    { id: 207, word: '¿QUÉ HACES?', categoryId: 21, image: 'assets/img/Preguntas/quehaces.png' },
 
     // Numeros
     { id: 208, word: 'CERO', categoryId: 22, image: 'assets/img/Numeros/0.png' },
