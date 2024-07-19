@@ -1,8 +1,8 @@
 export const WORDS = [
     // Personas
     { id: 1, word: 'YO', categoryId: 1, image: 'assets/img/Personas/yo.png', noPersona: 1 },
-    { id: 2, word: 'TU', categoryId: 1, image: 'assets/img/Personas/tu.png', noPersona: 2 },
-    { id: 3, word: 'EL', categoryId: 1, image: 'assets/img/Personas/el.png', noPersona: 3  },
+    { id: 2, word: 'TÚ', categoryId: 1, image: 'assets/img/Personas/tu.png', noPersona: 2 },
+    { id: 3, word: 'ÉL', categoryId: 1, image: 'assets/img/Personas/el.png', noPersona: 3  },
     { id: 3, word: 'ELLA', categoryId: 1, image: 'assets/img/Personas/ella.png', noPersona: 3  },
     { id: 4, word: 'NOSOTROS', categoryId: 1, image: 'assets/img/Personas/nosotros.png' , noPersona: 4 },
     //{ id: 5, word: 'ELLOS', categoryId: 1, image: 'assets/img/Personas/tu.png' },
@@ -19,7 +19,7 @@ export const WORDS = [
     { id: 14, word: 'BUENAS TARDES', categoryId: 2, image: 'assets/img/Saludos/buenastardes.png' },
     { id: 15, word: 'BUENAS NOCHES', categoryId: 2, image: 'assets/img/Saludos/buenasnoches.png' },
     { id: 16, word: 'HOLA', categoryId: 2, image: 'assets/img/Saludos/hola.png' },
-    { id: 17, word: 'ADIOS', categoryId: 2, image: 'assets/img/Saludos/adios.png' },
+    { id: 17, word: 'ADIÓS', categoryId: 2, image: 'assets/img/Saludos/adios.png' },
    // { id: 18, word: 'CUIDATE', categoryId: 2 },
     
     // Colores
@@ -232,7 +232,7 @@ export const WORDS = [
     { id: 82, word: 'LIBRO', categoryId: 7, image: 'assets/img/Cosas/libro.png' },
     { id: 83, word: 'CUADERNO', categoryId: 7, image: 'assets/img/Cosas/cuaderno.png' },
     { id: 84, word: 'TELEVISOR', categoryId: 7, image: 'assets/img/Cosas/televisor.png' },
-    { id: 85, word: 'TELEFONO', categoryId: 7, image: 'assets/img/Cosas/telefono.png' },
+    { id: 85, word: 'TELÉFONO', categoryId: 7, image: 'assets/img/Cosas/telefono.png' },
     { id: 86, word: 'PUERTA', categoryId: 7, image: 'assets/img/Cosas/puerta.png' },
     { id: 87, word: 'VENTANA', categoryId: 7, image: 'assets/img/Cosas/ventana.png' },
     { id: 88, word: 'SILLA', categoryId: 7, image: 'assets/img/Cosas/silla.png' },
@@ -240,7 +240,7 @@ export const WORDS = [
     //{ id: 90, word: 'PISO', categoryId: 7, image: 'assets/img/Cosas/oso.png' },
     { id: 91, word: 'PLATO', categoryId: 7, image: 'assets/img/Cosas/plato.png' },
     //{ id: 92, word: 'OLLAS', categoryId: 7, image: 'assets/img/Cosas/oso.png' },
-    { id: 93, word: 'CUCHARAS', categoryId: 7, image: 'assets/img/Cosas/cuchara.png' },
+    { id: 93, word: 'CUCHARA', categoryId: 7, image: 'assets/img/Cosas/cuchara.png' },
     { id: 94, word: 'VASOS', categoryId: 7, image: 'assets/img/Cosas/vaso.png' },
     { id: 95, word: 'CAMA', categoryId: 7, image: 'assets/img/Cosas/cama.png' },
     { id: 96, word: 'JUGUETES', categoryId: 7, image: 'assets/img/Cosas/juguetes.png' },
@@ -256,10 +256,10 @@ export const WORDS = [
     { id: 104, word: 'PISCINA', categoryId: 8, image: 'assets/img/Lugares/piscina.png' },
     
     // Formas
-    { id: 105, word: 'CIRCULO', categoryId: 9, image: 'assets/img/Formas/circulo.png' },
+    { id: 105, word: 'CÍRCULO', categoryId: 9, image: 'assets/img/Formas/circulo.png' },
     { id: 106, word: 'CUADRADO', categoryId: 9, image: 'assets/img/Formas/cuadrado.png' },
-    { id: 107, word: 'TRIANGULO', categoryId: 9, image: 'assets/img/Formas/triangulo.png' },
-    { id: 108, word: 'RECTANGULO', categoryId: 9, image: 'assets/img/Formas/rectangulo.png' },
+    { id: 107, word: 'TRIÁNGULO', categoryId: 9, image: 'assets/img/Formas/triangulo.png' },
+    { id: 108, word: 'RECTÁNGULO', categoryId: 9, image: 'assets/img/Formas/rectangulo.png' },
     { id: 109, word: 'ESTRELLA', categoryId: 9, image: 'assets/img/Formas/estrella.png' },
     
     // Emociones
