@@ -16,7 +16,7 @@ export const CATEGORIES = [
     { id: 14, name: 'Actividades diarias - Mañana', image: 'assets/img/categories/dailymorning.jpg' },
     { id: 15, name: 'Actividades diarias - Tarde', image: 'assets/img/categories/dailyafternoon.jpg' },
     { id: 16, name: 'Actividades diarias - Noche', image: 'assets/img/categories/dailynight.jpg' },
-    { id: 17, name: 'Partes de la casa', image: 'assets/img/categories/partescasa.png' },
+    //{ id: 17, name: 'Partes de la casa', image: 'assets/img/categories/partescasa.png' },
     { id: 18, name: 'Tiempo Espacio', image: 'assets/img/categories/tiempoespacio.png' },
     { id: 19, name: 'Conectores', image: 'assets/img/categories/conectores.png' },
     { id: 20, name: 'Preguntas Si y No', image: 'assets/img/categories/sn_preguntas.png' },
