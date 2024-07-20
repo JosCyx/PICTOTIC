@@ -130,7 +130,7 @@ export const WORDS = [
 
     //{ id: 36, word: 'TOMAR', categoryId: 4, image: 'assets/img/Acciones/comer.png', noPerona: 0 },
 
-    //{ id: 37, word: 'QUERER', categoryId: 4, image: 'assets/img/Acciones/comer.png', noPerona: 0 },
+    { id: 37, word: 'QUIERO', categoryId: 4, image: 'assets/img/Acciones/querer.png', noPerona: 0 },
     
     { id: 38, word: 'IR', categoryId: 4, image: 'assets/img/Acciones/ir.png', noPerona: 0 },
     { id: 381, word: 'FUI', categoryId: 4, image: 'assets/img/Acciones/ir.png', noPerona: 1, tiempo: 1},
