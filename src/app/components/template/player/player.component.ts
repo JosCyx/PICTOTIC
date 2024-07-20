@@ -32,7 +32,7 @@ export class PlayerComponent {
 
   //almacena los datos de la voz seleccionada
   voice: any = {
-    index: 4,
+    index: 1,
     pitch: 0.75,
     rate: 0.6,
     volume: 1
