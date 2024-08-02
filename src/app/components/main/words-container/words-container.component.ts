@@ -77,13 +77,16 @@ export class WordsContainerComponent {
     if (word.id === 0) {
       this.backToCategories();
     } else {
+      //agregar la palabra a la lista wordsSelected de globalService
+      this.globalService.wordsSelected.push(word);
+
       // Agregar la palabra a la lista de reproducción del textToSpeechService
-      if (this.textToSpeechService.textToSpeech === '') {
+      /*if (this.textToSpeechService.textToSpeech === '') {
         this.textToSpeechService.textToSpeech += word.word;
       } else {
         this.textToSpeechService.textToSpeech += ' ' + word.word;
         //console.log(this.textToSpeechService.textToSpeech);
-      }
+      }*/
     }
   }
 

@@ -8,6 +8,7 @@ import { WORDS } from '../../assets/data/words';
 export class GlobalService {
 
   noPersonaSelected: number = 0;
+  wordsSelected: any[] = [];
 
   constructor() { }
 

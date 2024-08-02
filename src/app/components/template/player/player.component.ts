@@ -10,6 +10,7 @@ import {MatSliderModule} from '@angular/material/slider';
 import {MatInputModule} from '@angular/material/input';
 import { TextToSpeechService } from '../../../services/text-to-speech.service';
 import { GlobalService } from '../../../services/global.service';
+import { MatCardModule } from '@angular/material/card';
 
 
 @Component({
@@ -23,7 +24,8 @@ import { GlobalService } from '../../../services/global.service';
     MatSelectModule, 
     MatFormFieldModule, 
     MatSliderModule, 
-    MatInputModule
+    MatInputModule,
+    MatCardModule
   ],
   templateUrl: './player.component.html',
   styleUrl: './player.component.css'
@@ -50,7 +52,7 @@ export class PlayerComponent {
   constructor(
     private ngZone: NgZone, 
     public ttsService: TextToSpeechService,
-    private globalService: GlobalService
+    public globalService: GlobalService
   ) { }
 
   ngOnInit() {
@@ -62,6 +64,9 @@ export class PlayerComponent {
   startSpeaking() {
     try {
       //si esta vacio el campo de texto, se leera la lista de palabras  
+      for (let i = 0; i < this.globalService.wordsSelected.length; i++) {
+        this.ttsService.textToSpeech += this.globalService.wordsSelected[i].word + ' ';
+      }
 
       console.log('let´s to speech!!!')
       const index = this.voice.index;
@@ -104,5 +109,6 @@ export class PlayerComponent {
   clearPlayer(){
     this.ttsService.textToSpeech = '';
     this.globalService.noPersonaSelected = 0;
+    this.globalService.wordsSelected = [];
   }
 }

@@ -30,7 +30,7 @@ export class TextToSpeechService {
   startSpeaking(text: string) {
     try {
       //si esta vacio el campo de texto, se leera la lista de palabras  
-      console.log('let´s to speech!!!')
+      //console.log('let´s to speech!!!')
       const index = this.voice.index;
       const message = new SpeechSynthesisUtterance(text);
       message.voice = this.voices[index];
@@ -41,7 +41,7 @@ export class TextToSpeechService {
 
       //cuando termine de leer habilitar el boton de leer
       message.onend = () => {
-        console.log('end speech');
+        //console.log('end speech');
       }
     }
     catch (error) {
