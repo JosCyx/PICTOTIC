@@ -49,8 +49,10 @@ export class WordsContainerComponent {
         //agregar el "dame" y el "dolor", buscar las palabras con id 34 y 35 y agregarlas a la lista
         const dame = WORDS.find(word => word.id === 34);
         const dolor = WORDS.find(word => word.id === 35);
+        const quiero = WORDS.find(word => word.id === 37);
         this.wordsByCategory.push(dame);
         this.wordsByCategory.push(dolor);
+        this.wordsByCategory.push(quiero);
       }
     } else {
       //filtrar las palabras por la categoria
