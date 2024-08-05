@@ -374,13 +374,15 @@ export const WORDS = [
     
     
     // Preguntas
-    /*{ id: 187, word: 'DÓNDE', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
-    { id: 188, word: 'QUÉ', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
-    { id: 189, word: 'CUÁNDO', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
-    { id: 190, word: 'CÓMO', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
-    { id: 191, word: 'QUIÉN', categoryId: 21, image: 'assets/img/Preguntas/si.png' },*/
+    { id: 188, word: '¿QUÉ?', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
+    { id: 187, word: '¿DÓNDE?', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
+    { id: 189, word: '¿CUÁNDO?', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
+    { id: 190, word: '¿POR QUÉ?', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
+    { id: 191, word: '¿TE GUSTA?', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
+    { id: 1872, word: '¿NO TE GUSTA?', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
     { id: 206, word: '¿CÓMO ESTÁS?', categoryId: 21, image: 'assets/img/Preguntas/comoestas.png' },
     { id: 207, word: '¿QUÉ HACES?', categoryId: 21, image: 'assets/img/Preguntas/quehaces.png' },
+    { id: 1871, word: '¿QUÉ QUIERES?', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
 
     // Numeros
     { id: 208, word: 'CERO', categoryId: 22, image: 'assets/img/Numeros/0.png' },
