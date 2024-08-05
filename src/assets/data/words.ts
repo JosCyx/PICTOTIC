@@ -360,7 +360,7 @@ export const WORDS = [
     { id: 196, word: 'LOS', categoryId: 19},
     { id: 197, word: 'LAS', categoryId: 19 },
     { id: 198, word: 'ES', categoryId: 19},
-    //{ id: 199, word: 'MIS', categoryId: 19 },
+    { id: 199, word: 'DE', categoryId: 19 },
     //{ id: 200, word: 'ESTA', categoryId: 19 },
     //{ id: 201, word: 'ESTE', categoryId: 19 },
     //{ id: 202, word: 'ESOS', categoryId: 19},
