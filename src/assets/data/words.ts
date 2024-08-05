@@ -371,7 +371,12 @@ export const WORDS = [
     // Preguntas si y no
     { id: 185, word: 'SÍ', categoryId: 20, image: 'assets/img/si.png'},
     { id: 186, word: 'NO', categoryId: 20, image: 'assets/img/no.png'},
-    
+    { id: 1861, word: 'BIEN', categoryId: 20, image: 'assets/img/bien.png'},
+    { id: 1862, word: 'MAL', categoryId: 20, image: 'assets/img/mal.png'},
+    { id: 1863, word: 'ESTOY BIEN', categoryId: 20, image: 'assets/img/estoy bien.png'},
+    { id: 1864, word: 'ESTOY MAL', categoryId: 20, image: 'assets/img/estoy mal.png'},
+    { id: 1865, word: 'ME GUSTA', categoryId: 20, image: 'assets/img/me gusta.png'},
+    { id: 1866, word: 'NO ME GUSTA', categoryId: 20, image: 'assets/img/no me gusta.png'},
     
     // Preguntas
     { id: 188, word: '¿QUÉ?', categoryId: 21, image: 'assets/img/Preguntas/si.png' },
