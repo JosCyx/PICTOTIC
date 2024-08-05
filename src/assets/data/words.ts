@@ -342,11 +342,11 @@ export const WORDS = [
     { id: 172, word: 'ABRIR PUERTA', categoryId: 18, image: 'assets/img/tiempoespacio/abrirpuerta.png' },
     { id: 173, word: 'PEQUEÑO', categoryId: 18, image: 'assets/img/tiempoespacio/pequeno.png' },
     { id: 174, word: 'GRANDE', categoryId: 18, image: 'assets/img/tiempoespacio/grande.png' },
-    //{ id: 175, word: 'SUBIR', categoryId: 18, image: 'assets/img/tiempoespacio/tareas.png' },
-    //{ id: 176, word: 'BAJAR', categoryId: 18, image: 'assets/img/tiempoespacio/tareas.png' },
-    //{ id: 177, word: 'LENTO', categoryId: 18, image: 'assets/img/tiempoespacio/tareas.png' },
-    //{ id: 178, word: 'RÁPIDO', categoryId: 18, image: 'assets/img/tiempoespacio/tareas.png' },
-    //{ id: 179, word: 'FUEGO', categoryId: 18, image: 'assets/img/tiempoespacio/tareas.png' },
+    { id: 175, word: 'ANTES DE AYER', categoryId: 18, image: 'assets/img/tiempoespacio/antes de ayer.png' },
+    { id: 176, word: 'AYER', categoryId: 18, image: 'assets/img/tiempoespacio/ayer.png' },
+    { id: 177, word: 'HOY', categoryId: 18, image: 'assets/img/tiempoespacio/hoy.png' },
+    { id: 178, word: 'MAÑANA', categoryId: 18, image: 'assets/img/tiempoespacio/mañana.png' },
+    { id: 179, word: 'PASADO MAÑANA', categoryId: 18, image: 'assets/img/tiempoespacio/pasado mañana.png' },
     
     // Conectores
     { id: 180, word: 'UN', categoryId: 19 },
