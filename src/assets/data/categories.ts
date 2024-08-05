@@ -19,7 +19,7 @@ export const CATEGORIES = [
     //{ id: 17, name: 'Partes de la casa', image: 'assets/img/categories/partescasa.png' },
     { id: 18, name: 'Tiempo Espacio', image: 'assets/img/categories/tiempoespacio.png' },
     { id: 19, name: 'Conectores', image: 'assets/img/categories/conectores.png' },
-    { id: 21, name: 'Respuestas', image: 'assets/img/categories/sn_preguntas.png' },
     { id: 20, name: 'Preguntas', image: 'assets/img/categories/preguntas.png' },
+    { id: 21, name: 'Respuestas', image: 'assets/img/categories/sn_preguntas.png' },  
     { id: 22, name: 'Números', image: 'assets/img/categories/numeros.png' },
 ]
